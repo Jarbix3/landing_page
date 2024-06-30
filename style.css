@@ -41,20 +41,17 @@ ul{
 }
 
 .mainheader{
-    display: flex;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;   
 }
 
-h3{
-    display: flex;
+h3{    
     margin: 0;
     padding: 0;
 }
 
 .maindesc{
-    display: flex;
     font-size: 18px;
     color: #e5e7eb;   
     margin: 0;    
@@ -72,14 +69,13 @@ h3{
 
 .banner
 {
-    display: flex;
     height: auto;
     width: 400px;
 }
 
 .info{
     padding: 16px 64px 64px 64px;
-    text-align: center;
+    
     margin: 0 auto;
     background-color: #f9faf8;
 
@@ -107,10 +103,7 @@ h3{
     max-width: 200px;
 }
 
-img{
-    width: 100px;
-    height: 100px;
-}
+
 
 .subtext{
     text-align: center;
@@ -138,14 +131,7 @@ img{
     text-align: right;
 }
 
-.footer{
-    display: flex;
-    background-color: #1f2937;
-    color: #e5e7eb;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;    
-}
+
 
 .section{
     padding-top: 50px;
@@ -178,3 +164,11 @@ img{
     border-radius: 8px;
 }
 
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;    
+}
